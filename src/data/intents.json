@@ -1,0 +1,341 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hey",
+                "hello",
+                "hi",
+                "hello there",
+                "good morning",
+                "good evening",
+                "morning",
+                "hey there",
+                "let's go",
+                "hey dude",
+                "good morning",
+                "good evening",
+                "good afternoon",
+                "get to the point, i'm a busy guy",
+                "how are you",
+                "what is your name"
+            ],
+            "responses": [
+                "Hey! How are you?",
+                "Hello there tiny human!",
+                "Let's take over the world"
+            ]
+        },
+        {
+            "tag": "play music",
+            "patterns": [
+                "Play Stairway to Heaven by Led Zeppelin",
+                "Play Bohemian Rhapsody by Queen",
+                "Play Purple Haze by Jimi Hendrix",
+                "Play Billie Jean by Michael Jackson",
+                "Play Like a Rolling Stone by Bob Dylan",
+                "Play Sweet Child o' Mine by Guns N' Roses",
+                "Play Imagine by John Lennon",
+                "Play Hotel California by Eagles",
+                "Play Uptown Funk by Mark Ronson",
+                "Play Smells Like Teen Spirit by Nirvana",
+                "Play Shape of You by Ed Sheeran",
+                "Play Hey Jude by The Beatles",
+                "Play I Will Always Love You by Whitney Houston",
+                "Play All Star by Smash Mouth",
+                "Play Despacito by Luis Fonsi",
+                "Play Thriller by Michael Jackson",
+                "Play Wannabe by Spice Girls",
+                "Play Radioactive by Imagine Dragons",
+                "Play Shape of My Heart by Sting",
+                "Play Waka Waka by Shakira",
+                "Play Stairway to Heaven",
+                "Play Bohemian Rhapsody",
+                "Play Purple Haze",
+                "Play Billie Jean",
+                "Play Like a Rolling Stone",
+                "Play Sweet Child o' Mine",
+                "Play Imagine",
+                "Play Hotel California",
+                "Play Uptown Funk",
+                "Play Smells Like Teen Spirit",
+                "Play Shape of You",
+                "Play Hey Jude",
+                "Play I Will Always Love You",
+                "Play All Star",
+                "Play Despacito",
+                "Play Thriller",
+                "Play Wannabe",
+                "Play Radioactive",
+                "Play Shape of My Heart",
+                "Play Waka Waka"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "play video",
+            "patterns": [
+                "Play video The Clash: Westway to the World",
+                "Watch The Avengers",
+                "Watch Inception",
+                "Play film Titanic",
+                "Play video Avengers",
+                "Watch Interstellar",
+                "Play film Jurassic Park",
+                "Watch The Matrix",
+                "Play video The Dark Knight",
+                "Watch Avatar",
+                "Play film Gladiator",
+                "Play video Incredibles",
+                "Watch The Shawshank Redemption",
+                "Watch Harry Potter",
+                "Play film Star Wars",
+                "Play video The Lion King",
+                "Watch The Godfather",
+                "Watch Blade Runner",
+                "Play film Casablanca",
+                "Watch Pulp Fiction",
+                "Play video The Beatles Anthology",
+                "Watch The Great Gatsby",
+                "Play film The Silence of the Lambs",
+                "Watch Casablanca",
+                "Play video The Shining",
+                "Watch Avatar: The Last Airbender",
+                "Play film The Sound of Music",
+                "Play video The Big Lebowski",
+                "Watch Gladiator",
+                "Play film The Dark Knight Rises",
+                "Play video The Beatles: Eight Days a Week",
+                "Watch The Lord of the Rings",
+                "Watch The Simpsons Movie",
+                "Play film The Princess Bride",
+                "Play video The Rolling Stones: Shine a Light",
+                "Watch The Wizard of Oz",
+                "Play film The Green Mile",
+                "25"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "word meaning",
+            "patterns": [
+                "what is the meaning of word",
+                "what is the meaning of genuine",
+                "what is the meaning of resolution",
+                "find the meaning of positive",
+                "find the meaning of income",
+                "find the meaning of situation"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "google search",
+            "patterns": [
+                "search on google",
+                "google trending music",
+                "search on google Billie Eilish",
+                "search on google popular music",
+                "google what colour is the sky",
+                "google who is Elon Musk"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "wiki search",
+            "patterns": [
+                "wiki who is Barack Obama",
+                "wiki python programming language",
+                "search on wikipedia, flowers",
+                "search on wikipedia what is coding",
+                "search on wiki, fish fingers",
+                "search on wiki toothbrush"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "love sky",
+            "patterns": [
+                "I love you",
+                "I like you",
+                "I want you to be mine",
+                "I am in love with you",
+                "you're beautiful",
+                "i love you"
+            ],
+            "responses": [
+                "Thank you for loving me",
+                "Hearing you say that delights me",
+                "I love you more",
+                "huh I knew It",
+                "Take a number, the line is long",
+                "Okay!"
+            ]
+        },
+        {
+            "tag": "insult sky",
+            "patterns": [
+                "fuck you",
+                "you are an idiot",
+                "you are silly sky",
+                "dumb",
+                "you are stupid",
+                "asshole"
+            ],
+            "responses": [
+                "you could really use therapy",
+                "then why do you need my help",
+                "why are you still talking to me",
+                "grub a dictionary and comeback",
+                "what else do you find fascinating about sky?",
+                "fucking you hard",
+                "I dont care"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "I need help",
+                "help me out",
+                "I have a problem",
+                "help me",
+                "i need help"
+            ],
+            "responses": [
+                "Read the manual"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "goodbye",
+                "see you soon",
+                "see you later",
+                "go to sleep",
+                "bye"
+            ],
+            "responses": [
+                "goodbye too",
+                "okay later"
+            ]
+        },
+        {
+            "tag": "terminate",
+            "patterns": [
+                "terminate"
+            ],
+            "responses": [
+                "terminating program"
+            ]
+        },
+        {
+            "tag": "good mood",
+            "patterns": [
+                "i feel so excited today",
+                "i'm in a good mood",
+                "i feel great",
+                "i feel excited"
+            ],
+            "responses": [
+                "that's good to hear",
+                "tell me about it..."
+            ]
+        },
+        {
+            "tag": "bad mood",
+            "patterns": [
+                "i feel so sad today",
+                "i'm in a bad mood",
+                "i feel terrible",
+                "life is tough right now",
+                "everything seems gloomy",
+                "today is not a good day",
+                "i can't shake off this sadness",
+                "dealing with a lot of stress",
+                "feeling down and out",
+                "having a rough time lately",
+                "nothing is going well",
+                "i'm overwhelmed with negativity",
+                "just feeling blue",
+                "don't know how to lift my spirits",
+                "it's hard to stay positive",
+                "i feel so sad",
+                "i'm so bored"
+            ],
+            "responses": [
+                "sometimes playing games help. Type play game.",
+                "I'm sorry to hear that. Can I help you in any way?",
+                "I understand. It's okay to feel this way. What can I do for you?",
+                "I'm here for you. If you want to talk or need assistance, feel free to let me know.",
+                "Sometimes, talking about it can make you feel better. What's on your mind?",
+                "I'm here to support you. Let me know if there's anything specific you'd like to discuss."
+            ]
+        },
+        {
+            "tag": "tell joke",
+            "patterns": [
+                "tell me a joke",
+                "cheer me up",
+                "can you tell a joke"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "bot info",
+            "patterns": [
+                "what is your name",
+                "how do I call you"
+            ],
+            "responses": [
+                "my name is sky spelled as s k y",
+                "I'm sky"
+            ]
+        },
+        {
+            "tag": "read news",
+            "patterns": [
+                "can you read agriculture the news",
+                "fetch latest sports news",
+                "can you read technology news",
+                "can you read me political news",
+                "read tech some news"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "follow up",
+            "patterns": [
+                "do you agree",
+                "so you care?",
+                "so you care",
+                "that should already be done"
+            ],
+            "responses": [
+                "yes",
+                "okay"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thank you",
+                "you're so helpful",
+                "exactly what i wanted",
+                "this is the correct response"
+            ],
+            "responses": [
+                "you are welcomed",
+                "my pleasure"
+            ]
+        },
+        {
+            "tag": "play game",
+            "patterns": [
+                "play game",
+                "is there a game I can play",
+                "let's play a game",
+                "do you have any game?"
+            ],
+            "responses": []
+        }
+    ]
+}
