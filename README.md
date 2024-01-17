@@ -1,5 +1,3 @@
-
-```markdown
 # Chatbot Project
 
 ## Setup Instructions
